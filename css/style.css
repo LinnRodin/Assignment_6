@@ -439,3 +439,194 @@ header .toggle .btn-white {
   padding: 5px 10px;
   border-radius: 5px;
 }
+
+.topsellingproducts .container {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+.topsellingproducts .collection-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 40px;
+}
+@media (min-width: 768px) {
+  .topsellingproducts .collection-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 992px) {
+  .topsellingproducts .collection-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 1200px) {
+  .topsellingproducts .collection-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.topsellingproducts .collection-grid .collection-item .body {
+  display: flex;
+  align-items: flex-start;
+  color: #292929;
+  margin-top: 10px;
+  font-family: "Poppins", sans-serif;
+  padding: 0 10px 10px 10px;
+}
+.topsellingproducts .collection-grid .collection-item .body .infobox .title {
+  font-size: 16px;
+  font-weight: 500;
+}
+.topsellingproducts .collection-grid .collection-item .body .infobox .comments {
+  font-family: "Poppins", sans-serif;
+  font-size: 11px;
+  color: #636363;
+}
+.topsellingproducts .collection-grid .collection-item .body .infobox .infotext {
+  margin-top: 7px;
+}
+.topsellingproducts .collection-grid .collection-item .body .tocart {
+  padding: 2px;
+  font-size: 12px;
+  color: #292929;
+}
+.topsellingproducts .collection-grid .collection-item .body .tocart:hover {
+  color: #AEAEAE;
+}
+
+.subscribe {
+  background-color: #636363;
+  height: 150px;
+}
+@media (min-width: 992px) {
+  .subscribe {
+    height: 300px;
+    padding: 70px 200px;
+  }
+}
+@media (min-width: 768px) {
+  .subscribe {
+    padding: 70px 100px;
+  }
+}
+.subscribe .container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+}
+@media (min-width: 992px) {
+  .subscribe .container {
+    background-color: #FFFFFF;
+    height: 100%;
+  }
+}
+.subscribe .container .subscribe-content {
+  margin-top: 30px;
+  width: 100%;
+}
+@media (min-width: 1200px) {
+  .subscribe .container .subscribe-content {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+  }
+}
+@media (min-width: 992px) {
+  .subscribe .container .subscribe-content {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+  }
+}
+@media (min-width: 768px) {
+  .subscribe .container .subscribe-content {
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+  }
+}
+.subscribe .container .subscribe-content input {
+  border: none;
+  width: 300px;
+  height: 40px;
+  padding-left: 1rem;
+  border-radius: 25px;
+  font-size: 18px;
+}
+@media (min-width: 992px) {
+  .subscribe .container .subscribe-content input {
+    position: relative;
+    border: 0.3px solid #AEAEAE;
+    width: 600px;
+  }
+}
+@media (min-width: 1200px) {
+  .subscribe .container .subscribe-content input {
+    position: relative;
+    border: 0.3px solid #AEAEAE;
+    width: 600px;
+  }
+}
+@media (min-width: 768px) {
+  .subscribe .container .subscribe-content input {
+    position: relative;
+    width: 600px;
+  }
+}
+.subscribe .container .subscribe-content .btn-theme {
+  margin-top: 10px;
+  border-radius: 25px;
+}
+@media (min-width: 992px) {
+  .subscribe .container .subscribe-content .btn-theme {
+    margin-top: 0;
+    position: absolute;
+    right: 57%;
+  }
+}
+@media (min-width: 1200px) {
+  .subscribe .container .subscribe-content .btn-theme {
+    margin-top: 0;
+    position: absolute;
+    right: 80%;
+  }
+}
+@media (min-width: 768px) {
+  .subscribe .container .subscribe-content .btn-theme {
+    margin-top: 0;
+    position: absolute;
+    right: 11%;
+  }
+}
+
+/* -----------------------------------Footer------------------------------------------- */
+.footer {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  background-color: #292929;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+
+.sectionone {
+  height: 300px;
+  width: 1920px;
+  background-color: #AEAEAE;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+.sectionone .infoimg {
+  text-align: center;
+  font-size: 80px;
+  margin-top: 20px;
+}
+.sectionone .infoshop {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #636363;
+}
