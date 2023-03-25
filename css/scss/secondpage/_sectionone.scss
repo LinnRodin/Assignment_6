@@ -1,6 +1,6 @@
 .sectionone {
     height: 300px;
-    width: 1920px;
+    width: 100%;
     background-color: $color-dark-4;
     border-top: 1px solid;
     border-bottom: 1px solid;
@@ -19,10 +19,50 @@
         color: $color-dark-3;
     }
 
+    @include xxl {
+        width: 1400px;
+        margin: 0 auto;
+        .infoimg {
+            font-size: 120px;
+        }
+        .infoshop {
+            font-size: 60px;
+        }
+    }
 
-    
-    
-}      
+    @include xl {
+        width: 1200px;
+        margin: 0 auto;
+        .infoimg {
+            font-size: 100px;
+        }
+        .infoshop {
+            font-size: 50px;
+        }
+    }
+
+    @include lg {
+        width: 992px;
+        margin: 0 auto;
+        .infoimg {
+            font-size: 80px;
+        }
+        .infoshop {
+            font-size: 40px;
+        }
+    }
+
+    @include md {
+        width: 100%;
+        margin: 0;
+        .infoimg {
+            font-size: 60px;
+        }
+        .infoshop {
+            font-size: 30px;
+        }
+    }
+}
 
 
 

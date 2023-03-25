@@ -89,7 +89,7 @@ header {
     .toggle {
         grid-area: btn;
         display: flex;
-        justify-content: end;
+        justify-content: flex-end;
 
         @include lg {
             display: none;
