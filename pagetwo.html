@@ -20,12 +20,11 @@
         <header >
             <div class="container">
                 <img class="logo" src="images/logo.svg" alt="">
-    
-                <div id="menu" class="hide">
-                    <nav class="menu-links">
-                        <a class="link" href="#">HOME</a>
-                        <a class="link" href="#">PRODUCTS</a>
-                        <a class="link" href="#">CONTACT</a>
+                <div id="menu">
+                    <nav id="menu" class="menu-links">
+                        <a class="link" href="home.html">HOME</a>
+                        <a class="link" href="products.html">PRODUCTS</a>
+                        <a class="link" href="contact.html">CONTACT</a>
                     </nav>
                     <nav class="menu-icons">
                         <a class="link" href="#"><i class="fa-solid fa-search"></i></a>
@@ -35,15 +34,15 @@
                 </div>
                 
                 <div class="toggle">
-                    <button class="btn-white" data-option="toggle" data-target="#menu"><i class="fa-solid fa-bars"></i></button>
+                    <button class="btn-toggle btn-outline-white" data-option="toggle" data-target="#menu">
+                        <i id="icon" class="fa-solid fa-bars"></i>
+                    </button>
                 </div>
-    
             </div>
         </header>
         <!-- header end -->
 
         <!-- Section one placeholder for img start-->
-        
          <section class="sectionone">
             <div class="container">
                 <div class="sectionone-content">
@@ -67,8 +66,8 @@
                 </div>
                 </div>
                 <div class="product-details">
-                <p class="product-title"> Young Star Shoe Fashion </p>
-                <p class="product-description"> Product Description : Great shoes for great value. </p>
+                    <p class="product-title"> Young Star Shoe Fashion </p>
+                    <p class="product-description"> Product Description : Great shoes for great value. </p>
                 <div class="product-rating">
                     <span class="fa-solid fa-star"></span>
                     <span class="fa-solid fa-star"></span>
@@ -81,7 +80,7 @@
                     <button>-</button>
                     <span>1</span>
                     <button>+</button>
-                    <button class="add-to-cart">Add to Cart</button>
+                    <button class="add-to-cart">Add to Cart <i class="fa-solid fa-cart-shopping"></i></button>
                 </div>
                     <div class="product-section">
                       <div class="product-colors">
@@ -91,14 +90,14 @@
                          <p> SKU N/A</p>
                       </div>
                      <button class="wish">Add to wishlist</button>
+                        <div class="small-description"> Category: Table Lamp</div>
                     </div>
-                <div class="small-description"> Category: Table Lamp</div>
               </div>
            </div>
         </div>
         <!-- Section two for products and add to cart end  -->
         
-        <!-- Section three for row with 4 buttons for info tabs start -->
+        <!-- Section three, row with 4 buttons for info tabs start -->
         <div class="info-buttons">
             <div class="container">
                 <button class="buttonrow">DESCRIPTION</button>
@@ -196,59 +195,22 @@
             <section class="imagedisplay-end">
                 <div class="container">
                     <div class="display-end-grid">
-                        <!-- item start -->
-                        <a href="#" class="collection-item">
-                            <img src="images/placeholders/200x122.svg" alt="">
-                            <div class="body">
-                                <i class="tocart fa-solid fa-cart-plus"></i>
-                            </div>
-                        </a>
-                        <!-- item end -->
-
-                        <!-- item start -->
-                        <a href="#" class="collection-item">
-                            <img src="images/placeholders/200x122.svg" alt="">
-                            <div class="body">
-                                <i class="tocart fa-solid fa-cart-plus"></i>
-                            </div>
-                        </a>
-                        <!--item end -->
-
-                        <!--item start -->
-                        <a href="#" class="collection-item">
-                            <img src="images/placeholders/200x122.svg" alt="">
-                            <div class="body">
-                                <i class="tocart fa-solid fa-cart-plus"></i>
-                            </div>
-                        </a>
-                         <!--item end -->
-                        <!--item start -->
-                        <a href="#" class="collection-item">
-                            <img src="images/placeholders/200x122.svg" alt="">
-                            <div class="body">
-                                <i class="tocart fa-solid fa-cart-plus"></i>
-                            </div>
-                        </a>
-                         <!--item end -->
-                        <!-- item start -->
-                        <a href="#" class="collection-item">
-                            <img src="images/placeholders/200x122.svg" alt="">
-                            <div class="body">
-                                <i class="tocart fa-solid fa-cart-plus"></i>
-                            </div>
-                        </a>  <!--item end -->
+                        <img src="images/placeholders/200x122.svg" alt="">
+                        <img src="images/placeholders/200x122.svg" alt="">
+                        <img src="images/placeholders/200x122.svg" alt="">
+                        <img src="images/placeholders/200x122.svg" alt="">
+                        <img src="images/placeholders/200x122.svg" alt="">
                     </div>
                 </div>
             </section>
 
             <!-- section six image section imagedisplay-end, end -->
 
+
         <!-----------------------------------Footer------------------------------------->
         <footer class="footer">
             <div>©2023 bmerketo. All Rights Reserved</div>
         </footer>
-
-       
 
     </body>
 </html>

@@ -1,9 +1,7 @@
 .imagedisplay-end {
     height: 285px;
-    width: 2000px;
+    width: 100%;
     background-color: $color-theme-3;
-    margin: 0 auto;
-    margin-left: -50px; 
     
     img {
         width: 100%;
@@ -19,7 +17,7 @@
         
     
         .display-end-grid {
-            margin-top: 40px;
+            margin-top: 80px;
             display: grid;
             grid-template-columns: repeat(1, 1fr);
             gap: 40px;
@@ -34,21 +32,7 @@
                 grid-template-columns: repeat(5, 1fr);
             }
 
-            .collection-item {
-            
-                .body {
-            
-                    .tocart {
-                        padding: 2px;
-                        font-size: 12px;
-                        color: $color-dark-2;
-            
-                        &:hover {
-                            color: $color-dark-4;
-                        }
-                    }
-                }
-            }
+           
         }
 
     }

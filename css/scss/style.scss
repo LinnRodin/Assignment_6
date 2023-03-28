@@ -2,6 +2,7 @@
 @import './core/colors';
 @import './core/mixins';
 
+//COMPONENETS - HOMEPAGE
 @import './components/utilities';
 @import './components/header';
 @import './components/showcase';
@@ -12,10 +13,17 @@
 @import './components/topsellingproducts';
 @import './components/subscribe';
 @import './components/footer';
+@import './components/forms';
 
+//PRODUCTS PAGE
 @import './secondpage/sectionone';
 @import './secondpage/sectiontwo';
 @import './secondpage/sectionthree';
 @import './secondpage/sectionfour';
 @import './secondpage/sectionfive';
 @import './secondpage/sectionend';
+
+//CONTACT PAGE
+@import './contactpage/contactsection';
+@import './contactpage/map';
+@import './contactpage/breadcrumb';
