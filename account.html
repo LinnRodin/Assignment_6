@@ -19,7 +19,6 @@
             <div class="container">          
                 <div class="logo"><img src="images/logo.svg" alt=""></div>
                 <nav class="menu-icons">
-                    <a class="link" href="#"><i class="fa-regular fa-search"></i></a>
                     <a class="link" href="login.html">LogOn</a>
                     <a class="link" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
                 </nav>
@@ -48,9 +47,8 @@
                         <span class="error">Your lastname is required</span>
                     </div>
                     <div class="streetname form-group">
-                        <label for="streetname">Streetname*</label>
+                        <label for="streetname">Streetname (optional)</label>
                         <input id="streetname" type="text" class="invalid">
-                        <span class="error">Your streetname is required</span>
                     </div>
                     <div class="postalcode form-group">
                         <label for="postalcode">Postalcode (optional)</label>
@@ -74,15 +72,17 @@
                         <span class="error">Your email is required</span>
                     </div>
                     <div class="password form-group">
-                        <label for="password">Password</label>
-                        <input id="password" type="text">
+                        <label for="password">Password*</label>
+                        <input id="password" type="password">
+                        <span class="error">password is required</span>
                     </div>
                     <div class="confirm password form-group">
-                        <label for="confirm-password">Confirm Password</label>
-                        <input id="confirm password" type="text">
+                        <label for="confirm-password">Confirm Password*</label>
+                        <input id="confirm password" type="password">
+                        <span class="error">confirm password is required</span>
                     </div>
                     <div class="upload image form-group">
-                        <label for="upload-imgage">Upload Profile Image</label>
+                        <label for="upload-imgage">Upload Profile Image (optional)</label>
                         <input id="upload image" type="text">
                     </div>
                     <div class="message form-group">
@@ -91,7 +91,7 @@
                         <span class="error">Message is required</span>
                     </div>
                     <div class="terms form-checkbox-group">
-                        <label class="custom-checkbox">I have read and accept the terms and agreements.
+                        <label class="account-checkbox">I have read and accept the terms and agreements.
                             <input type="checkbox" checked="checked">
                             <span class="checkmark"></span>
                         </label>
